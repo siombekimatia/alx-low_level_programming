@@ -1,11 +1,17 @@
 #include <stdio.h>
-#include <stdio.h>
 /**
- * main - A program that ptints a line to the standard error
- * Return: 1 (Success)
+ * main - entry poin to the program
+ * Return: the function will return a value of 1
  */
 int main(void)
 {
-	fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n',stdout);
+	int n = 0;
+	char st[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	while (st[n] != '\0')
+	{
+		putchar(st[n]);
+		n++;
+	}
 	return (1);
 }
