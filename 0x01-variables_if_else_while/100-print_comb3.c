@@ -3,7 +3,6 @@
  * main - Entry point
  * Return: Always 0 (Success)
  * main - prints all possible different combinations of two digits
- * Return: 0 (Success)
  */
 int main(void)
 {
