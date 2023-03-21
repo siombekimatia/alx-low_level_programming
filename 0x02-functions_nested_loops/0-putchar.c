@@ -1,21 +1,25 @@
 #include "main.h"
 
+
 /**
- * main - print _putchar
- * is written by bwave
- * Return: 0
+ * main - More functions, nested loops
+ *
+ * Program that prints _putchar, followed by a new line
+ *
+ * Return: always 0 (success)
  */
 
 int main(void)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
-return (0);
+	char s[] = "_putchar";
+	int i = 0;
+
+	while (s[i] != '\0')
+	{
+		_putchar(s[i]);
+		i++;
+	}
+	_putchar(10);
+
+	return (0);
 }
